@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	clear: both;
+}
+
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+.list{
+	margin-bottom: 50px;
+}
+.list-item{
+	padding: 20px;
+	list-style: none;
+}
+.list-item:nth-child(odd){
+	background-color: #eee;
+}
+
+.box{
+	background-color: #ffd700;
+	width: 30%;
+	height: 200px;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	float: left;
+}
+.box:first-child, .box:last-child, .box:nth-child(5){
+	background-color: #ff8c00;
+}
+.box:nth-child(3n){/*3 6 9,nは0から１ずつ増加*/
+	margin-right: 0;
+}
+.box:nth-last-child(-n+3){/*最後から3 2 1番目 */
+	margin-bottom: 0;
+}

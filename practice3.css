@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {/*::afterつけ忘れ*/
+	content:"";
+	display: block;
+	clear: both;
+}
+
+header{
+	background-color: red;
+	width: 100%;
+	height: 50px;
+}
+
+.main-top {
+	background-color: orange;
+	width: 100%;
+	height: 500px;
+}
+
+.main {/*親は子に隠れるのでbackカラーなし*/
+	width: 960px;
+	margin: 0 auto;
+}
+.main-center{
+	background-color: green;
+	width: 500px;
+	height: 1400px;
+	float: left;
+}
+.main-left {
+	background-color: limegreen;
+	width: 230px;
+	height: 1400px;
+	float: left;
+}
+.main-right {
+	background-color: limegreen;
+	width: 230px;
+	height: 1400px;
+	float: left;
+}
+
+footer {
+	background-color: blue;
+	width: 100%;
+	height: 100px;
+}
