@@ -9,3 +9,171 @@
 	clear: both;
 }
 
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.header-contents{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+img{
+	float: left;
+}
+.nav{
+	float: right;
+	height: 70px;
+}
+.nav-list{
+	color: #FAFAFA;
+    width: 120px;
+    line-height: 70px;
+    padding: 0 30px;
+    list-style: none;
+    float: left;
+}
+.nav-list, a{
+	color: #FAFAFA;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(img10/mv.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.main-visual-contents{
+	width: 1024px;
+	margin: 0 auto;
+}
+h1{
+	color: #FAFAFA;
+	font-size: 64px;
+	padding-top: 200px;
+	margin-bottom: 10px;
+}
+.main-visual-text{
+	color: #FAFAFA;
+	font-size: 20px;
+}
+
+
+
+
+.portfolio{
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.portfolio-contents{
+	width: 1024px;
+	margin: 0 auto;
+}
+.portfolio-headline{
+	color: #000000;
+	font-size: 32px;
+	text-align: center;
+	padding: 90px 0 8px 0;
+}
+.line{
+	margin: 0 auto;
+}
+.portfolio-text{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.box-contents{
+	width: 920px;
+	height: 630px;
+	margin: 0 auto;
+	padding: 30px 0 90px 0;
+}
+.box{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+.box:nth-last-child(-n+3){
+	margin-top: 10px;
+}
+
+
+.box-item1{
+	background-image: url(img10/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-right: 10px;
+}
+.box-item2{
+	background-image: url(img10/websuku.png);
+	background-size: cover;
+	background-position: center;
+	margin-right: 10px;
+}
+.box-item3{
+	background-image: url(img10/write.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.box-item4{
+	background-image: url(img10/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	margin-right: 10px;
+}
+.box-item5{
+	background-image: url(img10/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-right: 10px;
+}
+.box-item6{
+	background-image: url(img10/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+.feature{
+	width: 980px;
+	height: 800px;
+	background-color: red;
+}
+
+.profile{
+	width: 1024px;
+	height: 800px;
+	background-color: green;
+}
+
+.contact{
+	width: 800px;
+	height: 600px;
+	background-color: blue;
+}
+
+
+footer{
+	width: 100%;
+	height: 60px;
+	font-size: 16px;
+	background-color: #EC715F;
+}
+
+
+
+
+
